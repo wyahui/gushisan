@@ -1,462 +1,487 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Free Bootstrap Themes by 365Bootstrap dot com - Free Responsive Html5 Templates">
 
-<html>
-	<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>我们的博客 </title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Free HTML5 Website Template" />
-	<meta name="keywords" content="free website templates, free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
+    <title>我们的日常的一天天</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+    <link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/animated-logo.min.css"><!-- Logo -->
+	<link rel="stylesheet" href="css/our-team.css"> <!-- Resource style -->
 	
-
-  	<!-- Facebook and Twitter integration -->
-	<meta property="og:title" content=""/>
-	<meta property="og:image" content=""/>
-	<meta property="og:url" content=""/>
-	<meta property="og:site_name" content=""/>
-	<meta property="og:description" content=""/>
-	<meta name="twitter:title" content="" />
-	<meta name="twitter:image" content="" />
-	<meta name="twitter:url" content="" />
-	<meta name="twitter:card" content="" />
-
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+	<!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 	
-	<!-- Animate.css -->
-	<link rel="stylesheet" href="css/animate.css">
-	<!-- Icomoon Icon Fonts-->
-	<link rel="stylesheet" href="css/icomoon.css">
-	<!-- Bootstrap  -->
-	<link rel="stylesheet" href="css/bootstrap.css">
+	<!-- Js -->
+	<script src="js/modernizr.js"></script> <!-- Modernizr -->
+	
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="js/html5shiv.js"></script>
+        <script src="js/respond.min.js"></script>
+    <![endif]-->
+    <audio src="images/Josh Vietti - Because of You.mp3" preload="meta" loop autoplay id="bgmusic"></audio>
+<script>
+		var bgmusic = document.getElementById('bgmusic');
+		bgmusic.addEventListener('canplay', function(){
+			this.play();
+		}, false);
+		window.addEventListener('load', function(){
+			window.addEventListener('touchstart', once, false);
+		}, false);
+		function once(){
+			bgmusic.play();
+			window.removeEventListener('touchstart', once, false);
+		}
+</script>
+</head>
+<body>
+	<!-- /////////////////////////////////////////Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Gu Sha Sha</a>
+            </div>
 
-	<!-- Magnific Popup -->
-	<link rel="stylesheet" href="css/magnific-popup.css">
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+					<li>
+                        <a class="page-scroll" href="#page-top">首页</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#services">Love</a>
+                    </li>
+					<li>
+                        <a class="page-scroll" href="#new">莎莎</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">过程</a>
+                    </li>
+					<li>
+                        <a class="page-scroll" href="#Ours">我们</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact us">联系我们</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+	<!-- Navigation -->
 
-	<!-- Theme style  -->
-	<link rel="stylesheet" href="css/style.css">
-
-	<!-- Modernizr JS -->
-	<script src="js/modernizr-2.6.2.min.js"></script>
-	<!-- FOR IE9 below -->
-	<!--[if lt IE 9]>
-	<script src="js/respond.min.js"></script>
-	<![endif]-->
-
-	</head>
-	<body>
+	<!-- /////////////////////////////////////////Header -->
+	<header id="page-top">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="o-container">
+						<div class="c-slack">
+						  <span class="c-slack__dot c-slack__dot--a"></span>
+						  <span class="c-slack__dot c-slack__dot--b"></span>
+						  <span class="c-slack__dot c-slack__dot--c"></span>
+						  <span class="c-slack__dot c-slack__dot--d"></span>
+						</div>
+					</div>
+					<div class="intro-text">
+						<div class="intro-lead-in">Welcome To Our Home!</div>
+						<div class="intro-heading">It's Nice To Meet You</div>
+					</div>
+					<a class="btn btn-1 btn-sm" href="#about">About Us</a>
+					<a class="btn btn-1 btn-sm" href="#Ours">Ours</a>
+				</div>
+			</div>
+		</div>
+    </header>
+	<!-- Header -->
+	<div class="copyrights">Collect from <a href="#/" >顾十三呐原创</a></div>
+	<!-- /////////////////////////////////////////Content -->
+	<div id="page-content" class="index-page">
 		
-	<div class="fh5co-loader"></div>
-	
-	<div id="page">
-	<nav class="fh5co-nav" role="navigation">
-		<div class="container">
-			<div class="row">
-				<div class="col-xs-2 text-left">
-					<div id="fh5co-logo"><a href="index.html">顾十三和莎莎呐<span>.</span></a></div>
-				</div>
-				<div class="col-xs-10 text-right menu-1">
-					<ul>
-						<li class="active"><a href="index.html">首页</a></li>
-						<li class="has-dropdown">
-							<a href="services.html">兼职</a>
-							
-						</li>
-
-						<li><a href="products.html">产品展示</a></li>
-						<li><a href="about.html">关于我们</a></li>
-						<li><a href="blog.html">博客</a></li>
-						<li><a href="contact.html">联系</a></li>
-					</ul>
-				</div>
-			</div>
-			
-		</div>
-	</nav>
-
-	<header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(images/img_bg_1.jpg);" data-stellar-background-ratio="0.5">
-		<div class="overlay"></div>
-		<div class="container">
-			<div class="row">
-				<div class="col-md-7 text-left">
-					<div class="display-t">
-						<div class="display-tc animate-box" data-animate-effect="fadeInUp">
-							<h1 class="mb30">记录我们的点点滴滴</h1>
-							<p>
-								<a href="http://gushisane.com/" target="_blank" class="btn btn-primary">开始使用</a>  <em class="or">或者</em> 
-								<a href="#/channels/staffpicks/93951774" class="link-watch popup-vimeo">看视频</a>
-							</p>
-						</div>
+		<!-- ////////////Content Box 01 -->
+		<section id="services" class="box-content box-1">
+			<div class="container">
+				<div class="row heading">
+					<div class="col-lg-12">
+						<h2>Love</h2>
+						<hr>
+						<div class="intro">Love is being together every day 	</div>
 					</div>
 				</div>
-			</div>
-		</div>
-	</header>
-
-	<div id="fh5co-project">
-		<div class="container">
-			<div class="row row-pb-md">
-				<div class="col-md-8 col-md-offset-2 text-left fh5co-heading  animate-box">
-					<span>了解我们的日常生活吧</span>
-					<h2>沙雕日常</h2>
-					<p>当你看到这个的时候会很激动</p>
-				</div>
-			</div>
-
-			<div class="row">
-				<div class="col-md-4 col-sm-6 fh5co-project animate-box" data-animate-effect="fadeIn">
-					<a href="#"><img src="images/we_1.jpg" alt="Free HTML5 Website Template" class="img-responsive">
-						<div class="fh5co-copy">
-							<h3>日常笔芯</h3>
-							<p>我们的爱</p>
+				<div class="row">
+					<div class="col-sm-3 box-item">
+						<div class="wrap-img">	
+							<img src="images/love-1.png" />
 						</div>
-					</a>
-				</div>
-				<div class="col-md-4 col-sm-6 fh5co-project animate-box" data-animate-effect="fadeIn">
-					<a href="#"><img src="images/we_2.jpg" alt="Free HTML5 Website Template" class="img-responsive">
-						<div class="fh5co-copy">
-							<h3>简单笔芯</h3>
-							<p>她 &amp; 他</p>
+						<h3 class="blue">情话一</h3>
+						<p>  ---I am nine and you are three, except you or you
+.</p>
+						<button type="submit" class="btn btn-2 ">关注</button>
+					</div>
+					<div class="col-sm-3 box-item">
+						<div class="wrap-img">
+							<img src="images/love-2.png" />
 						</div>
-					</a>
-				</div>
-				<div class="col-md-4 col-sm-6 fh5co-project animate-box" data-animate-effect="fadeIn">
-					<a href="#"><img src="images/we_3.jpg" alt="Free HTML5 Website Template" class="img-responsive">
-						<div class="fh5co-copy">
-							<h3>背景</h3>
-							<p>记录她的一切</p>
+						<h3 class="yellow">情话二</h3>
+						<p>---最近有谣言说我喜欢你，我要澄清一下，那不</p>
+						<button type="submit" class="btn btn-2 ">关注</button>
+					</div>
+					<div class="col-sm-3 box-item">
+						<div class="wrap-img">
+							<img src="images/love-3.png" />
 						</div>
-					</a>
-				</div>
-
+						<h3 class="red">情话三</h3>
+						<p>---All my life.I just want to spend there days with you.yesterday, today and tomorrow.</p>
+						<button type="submit" class="btn btn-2 ">关注</button>
+					</div>
+					<div class="col-sm-3 box-item">
+						<div class="wrap-img">
+							<img src="images/love-4.png" />
+						</div>
+						<h3 class="green">情话四</h3>
+						<p>---你知道我的缺点是什么？我缺点你...</p>
+						<button type="submit" class="btn btn-2 ">关注</button>
+					</div>
+				</div>		
 			</div>
-		</div>
+		</section>
 		
-	</div>
-
-
-    <div class="copyrights">Collect from <a href="http://www.moobnn.com/" >企业网站模板</a></div>
-    
-	<div id="fh5co-services" class="fh5co-bg-section border-bottom">
-		<div class="container">
-			<div class="row row-pb-md">
-				<div class="col-md-8 col-md-offset-2 text-left animate-box" data-animate-effect="fadeInUp">
-					<div class="fh5co-heading">
-						<span>我们</span>
-						<h2>我们是怎么在一起的？</h2>
-						<p>会打起来其实很简单，因为爱、因为缘分...</p>
-					</div>
-				</div>
+		<!-- ////////////Content Box 02 -->
+		<section id="new" class="box-content box-2 box-style">
+			<div class="container">
+				<div class="row">
+					<blockquote>想要你成为我一个人的专利，我不能对你发誓我能爱多久，只要我有心跳呼吸放心还会爱你依旧...</blockquote>
+				</div>		
 			</div>
-			<div class="row">
-				<div class="col-md-4 col-sm-6 ">
-					<div class="feature-center animate-box" data-animate-effect="fadeInUp">
-						<span class="icon">
-							<i class="icon-eye"></i>
-						</span>
-						<h3>情话一</h3>
-						<p>.你知道你和星星有什么区别吗?星星在天上，你在我心里...</p>
-						
+		</section>
+		
+		<!-- ////////////Content Box 03 -->
+		<section id="about" class="box-content box-3">
+			<div class="container">
+				<div class="row heading">
+					<div class="col-lg-12">
+						<h2>About Our</h2>
+						<hr>
+						<div class="intro">我们就是有你还有我</div>
 					</div>
 				</div>
-				<div class="col-md-4 col-sm-6 ">
-					<div class="feature-center animate-box" data-animate-effect="fadeInUp">
-						<span class="icon">
-							<i class="icon-command"></i>
-						</span>
-						<h3>情话二</h3>
-						<p>我是九你是三，除了你还是你</p>
-						
-					</div>
-				</div>
-				<div class="clearfix visible-sm-block"></div>
-				<div class="col-md-4 col-sm-6 ">
-					<div class="feature-center animate-box" data-animate-effect="fadeInUp">
-						<span class="icon">
-							<i class="icon-power"></i>
-						</span>
-						<h3>情话三</h3>
-						<p>我发现昨天很喜欢你，今天也很喜欢你，而且有预感明天也会喜欢你。</p>
-						
-					</div>
-				</div>
-
-				<div class="clearfix visible-md-block"></div>
-
-				<div class="col-md-4 col-sm-6 ">
-					<div class="feature-center animate-box" data-animate-effect="fadeInUp">
-						<span class="icon">
-							<i class="icon-eye"></i>
-						</span>
-						<h3>情话四</h3>
-						<p>你知道我的缺点是什么吗? 是缺点你...</p>
-						
-					</div>
-				</div>
-				<div class="clearfix visible-sm-block"></div>
-				<div class="col-md-4 col-sm-6 ">
-					<div class="feature-center animate-box" data-animate-effect="fadeInUp">
-						<span class="icon">
-							<i class="icon-command"></i>
-						</span>
-						<h3>情话五</h3>
-						<p>我怀疑你的本质是一本书，不然为什么让我越看越想睡。</p>
-					
-					</div>
-				</div>
-				<div class="col-md-4 col-sm-6 ">
-					<div class="feature-center animate-box" data-animate-effect="fadeInUp">
-						<span class="icon">
-							<i class="icon-power"></i>
-						</span>
-						<h3>情话六</h3>
-						<p>最近有谣言说我喜欢你，我要澄清一下，那不是谣言。</p>
-						
-					</div>
-				</div>
-
-				<div class="clearfix visible-md-block"></div>
-
-			</div>
-		</div>
-	</div>
-
-
-	<div id="fh5co-testimonial" class="fh5co-bg-section">
-		<div class="container">
-			<div class="row animate-box row-pb-md">
-				<div class="col-md-8 col-md-offset-2 text-left fh5co-heading">
-					<span>我们会一直在一起</span>
-					<h2>什么是我们？</h2>
-					<p>不仅有你也有我...</p>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-6 animate-box">
-					<div class="testimonial">
-						<blockquote>
-							<p>&ldquo;草莓蓝莓蔓越莓 你今天想我了没.&rdquo;</p>
-							<p class="author"> <img src="images/person1.jpg" alt="Free HTML5 Bootstrap Template by gettemplates.co"> <cite>&mdash;顾十三呐</cite></p>
-						</blockquote>
-					</div>
-			      <div class="testimonial fh5co-selected">
-				      <blockquote>
-				        <p>&ldquo;果冻、脉动、仙草冻，今天还是忍不住对你心动啊！&rdquo;</p>
-				        <p class="author"><img src="images/person2.jpg" alt="Free HTML5 Bootstrap Template by gettemplates.co"> <cite>&mdash; 莎莎</cite></p>
-			        </blockquote>
-			      </div>
-				</div>
-
-				<div class="col-md-6 animate-box">
-					<div class="testimonial fh5co-selected">
-						<blockquote>
-							<p>&ldquo;甜有100种方式，吃糖，蛋糕，还有每天98次的想你&rdquo;</p>
-							<p class="author"><img src="images/person3.jpg" alt="Free HTML5 Bootstrap Template by gettemplates.co"> <cite>&mdash; 心动</cite></p>
-						</blockquote>
-					</div>
-
-					<div class="testimonial">
-						<blockquote>
-							<p>&ldquo;你喜欢喝水吗?那你已经喜欢上70%的我了&rdquo;</p>
-							<p class="author"><img src="images/person4.jpg" alt="Free HTML5 Bootstrap Template by gettemplates.co"> <cite>&mdash; 生物中的情话</cite></p>
-						</blockquote>
-					</div>
-
-				</div>
-
-				
-
-			</div>
-		</div>
-	</div>
-
-
-	<div id="fh5co-counter">
-		<div class="container">
-
-			<div class="row animate-box" data-animate-effect="fadeInUp">
-			  <div class="col-md-8 col-md-offset-2 text-left fh5co-heading">
-					<span>在一起几天</span>
-				<h2>我们在一起几天了？</h2>
-				  <p>”就是三天，昨天、今天和明天...“</p>
-				</div>
-			</div>
-
-			<div class="row">
-				
-			  <div class="col-md-3 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
-					<div class="feature-center">
-						<span class="icon">
-							<i class="ti-download"></i>
-						</span>
-						<span class="counter"><span class="js-counter" data-from="0" data-to="15" data-speed="9999" data-refresh-interval="10">0</span>0天</span>
-						<span class="counter-label">目前在一起</span>
-
-					</div>
-				</div>
-				<div class="col-md-3 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
-					<div class="feature-center">
-							<span class="icon">
-								<i class="ti-face-smile"></i>
-							</span>
-							<span class="counter"><span class="js-counter" data-from="0" data-to="120" data-speed="1500" data-refresh-interval="50">1</span>+</span>
-							<span class="counter-label">认识几天</span>
-				  </div>
-			  </div>
-					<div class="col-md-3 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
-						<div class="feature-center">
-							<span class="icon">
-								<i class="ti-briefcase"></i>
-							</span>
-							<span class="counter"><span class=" js-counter" data-from="0" data-to="90" data-speed="1500" data-refresh-interval="50">1</span>+</span>
-							<span class="counter-label">又是爱她的一天</span>
-						</div>
-					</div>
-					<div class="col-md-3 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
-						<div class="feature-center">
-							<span class="icon">
-								<i class="ti-time"></i>
-							</span>
-							<span class="counter"><span class="js-counter" data-from="0" data-to="12" data-speed="1500" data-refresh-interval="50">1</span>K+</span>
-							<span class="counter-label">OUR</span>
-
-						</div>
-					</div>
-						
-		  </div>
-	  </div>
-	</div>
-
-	<div id="fh5co-blog" class="fh5co-bg-section">
-		<div class="container">
-			<div class="row animate-box row-pb-md" data-animate-effect="fadeInUp">
-				<div class="col-md-8 col-md-offset-2 text-left fh5co-heading">
-					<span>在一起 &amp; 你和我</span>
-					<h2>Our Day</h2>
-					<p>我们在一起的一天天</p>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-4 col-sm-4 animate-box" data-animate-effect="fadeInUp">
-					<div class="fh5co-post">
-						<span class="fh5co-date">2020.2.8</span>
-						<h3><a href="#">我们在一起</a></h3>
-						<p>在缘分的作用下，我们成功地在一起....</p>
-						<p class="author"><img src="images/person3.jpg" alt="Free HTML5 Bootstrap Template by gettemplates.co"> <cite> WE</cite></p>
-					</div>
-				</div>
-				<div class="col-md-4 col-sm-4 animate-box" data-animate-effect="fadeInUp">
-					<div class="fh5co-post">
-						<span class="fh5co-date">2020.4.5</span>
-						<h3><a href="#">因为疫情我们一直没怎么见面</a></h3>
-						<p>每天都在用电话在保持联系</p>
-						<p class="author"><img src="images/person4.jpg" alt="Free HTML5 Bootstrap Template by gettemplates.co"> <cite> YOU</cite></p>
-					</div>
-				</div>
-				<div class="col-md-4 col-sm-4 animate-box" data-animate-effect="fadeInUp">
-					<div class="fh5co-post">
-						<span class="fh5co-date">2020.6.30</span>
-						<h3><a href="#">一起出去找工作</a></h3>
-						<p>过程不是很顺利，不过结果还是很好..</p>
-						<p class="author"><img src="images/person2.jpg" alt="Free HTML5 Bootstrap Template by gettemplates.co"> <cite> ME	</cite></p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div id="fh5co-started">
-		<div class="container">
-			<div class="row animate-box">
-				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-					<span>了解一下我们吧</span>
-					<h2>让我们一起喜欢这个温柔的妹妹吧</h2>
-					<p>又是爱你的一天</p>
-					<p><button type="submit" class="btn btn-primary">关注我们吧</button></p>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<footer id="fh5co-footer" role="contentinfo">
-		<div class="container">
-			<div class="row row-pb-md">
-				<div class="col-md-4 fh5co-widget ">
-					<h3>喜欢你的日常</h3>
-					<p>傻傻吊吊很可爱</p>
-					<p><a href="#">关注我们，我们吧！</a></p>
-				</div>
-				<div class="col-md-2 col-sm-4 col-xs-6 col-md-push-1 ">
-					<ul class="fh5co-footer-links">
-						<li><a href="#">关于我们</a></li>
-						<li><a href="#">帮助</a></li>
-						<li><a href="#">联系</a></li>
-						
-					</ul>
-				</div>
-
-				<div class="col-md-2 col-sm-4 col-xs-6 col-md-push-1 ">
-					<ul class="fh5co-footer-links">
-						<li><a href="#">我们的小店</a></li>
-						<li><a href="#">隐私</a></li>
-						<li><a href="#">手册</a></li>
-						
-					</ul>
-				</div>
-
-				<div class="col-md-2 col-sm-4 col-xs-6 col-md-push-1 ">
-					<ul class="fh5co-footer-links">
-						<li><a href="#">寻找更好的你</a></li>
-						<li><a href="#">发现而更好的我们</a></li>
-						<li><a href="#">爱上你就像老鼠爱大米...</a></li>
-						
-					</ul>
-				</div>
-			</div>
-
-			<div class="row copyright">
-				<div class="col-md-12 text-center">
-					<p>
-						<small class="block">&copy; 2020 <a href="http://www.gushisane.com/" target="_blank" title="顾十三呐">顾十三呐</a> 版权所有，盗版必究</small> 
-						<small class="block">联系方式 <a href="contact.html" target="_blank" title="微信">微信：gushisane</a> 有疑问请添加微信</small>
-					</p>
-					<p>
-						<ul class="fh5co-social-icons">
-							<li><a href="#"><i class="icon-twitter"></i></a></li>
-							<li><a href="#"><i class="icon-facebook"></i></a></li>
-							<li><a href="#"><i class="icon-linkedin"></i></a></li>
-							<li><a href="#"><i class="icon-dribbble"></i></a></li>
+				<div class="row">
+					<div class="col-lg-12">
+						<ul class="timeline">
+							<li class="blue">
+								<div class="timeline-image">
+									<img class="img-circle img-responsive" src="images/4.jpg" alt="">
+								</div>
+								<div class="timeline-panel">
+									<div class="timeline-heading">
+										<h4>*-*2020-2-8</h4><br>
+										<h4 class="subheading">我们的第一次确定关系</h4>
+									</div>
+									<div class="timeline-body">
+                                    <br><br>
+										<p class="text-muted">----是心动啊！！糟糕眼神躲不							掉，对你莫名的心跳...</p><br>
+                                        <p>-----甜甜的恋爱终于要轮到我了！！！</p>
+									</div>
+								</div>
+							</li>
+							<li class="timeline-inverted red">
+								<div class="timeline-image">
+									<img class="img-circle img-responsive" src="images/5.jpg" alt="">
+								</div>
+								<div class="timeline-panel">
+									<div class="timeline-heading">
+										<h4>*-*2020-4-6</h4><br>
+										<h4 class="subheading">第一次去爬山</h4><br>
+									</div>
+									<div class="timeline-body">
+										<p class="text-muted">---第一次让大自然见证我们的爱情！！！</p><br>
+                                        <p>---难道这就是爱吗？</p>
+									</div>
+								</div>
+							</li>
+							<li class="green">
+								<div class="timeline-image">
+									<img class="img-circle img-responsive" src="images/6.jpg" alt="">
+								</div>
+								<div class="timeline-panel">
+									<div class="timeline-heading">
+										<h4>2020-6-30</h4><br>
+										<h4 class="subheading">---第一次出去找工作</h4><br>
+									</div>
+									<div class="timeline-body">
+										<p class="text-muted">---第一次出去找工作坐了一天的火车，到那里还站了6个小时...</p><br>
+                                        <p>---经历一些事情，是为了磨合我们爱情...</p>
+									</div>
+								</div>
+							</li>
+							<li class="timeline-inverted yellow">
+								<div class="timeline-image">
+									<img class="img-circle img-responsive" src="images/7.jpg" alt="">
+								</div>
+								<div class="timeline-panel">
+									<div class="timeline-heading">
+										<h4>2020-7-4</h4><br>
+										<h4 class="subheading">我们回到了我们的郑州这所城市</h4><br>
+									</div>
+									<div class="timeline-body">
+										<p class="text-muted">---顶着炎热的大太阳出去找了两天的工作..</p><br>
+                                        <p>---我是不想她那么辛苦的出去找工作的...</p>
+									</div>
+								</div>
+							</li>
+							<li class="timeline-inverted ">
+								<div class="timeline-image">
+									<h4>2020-2-8
+									<br>直到
+									<br>永久!</h4>
+								</div>
+							</li>
 						</ul>
-					</p>
+					</div>
+				</div>		
+			</div>
+		</section>
+		
+		<!-- ////////////Content Box 04 -->
+		<section id="Ours" class="box-content box-4 box-style">
+			<div class="clearfix">
+				<div class="cd-testimonials-wrapper cd-container">
+					<ul class="cd-testimonials">
+						<li>
+							<p>“果冻，脉动，仙草冻，今天还是忍不住对你心动啊！！”</p>
+							<div class="cd-author">
+								<img src="images/avatar-1.jpg" alt="Author image">
+								<ul class="cd-author-info">
+									<li>---	顾十三呐</li>									
+								</ul>
+							</div>
+						</li>
+						<li>
+							<p>“甜有100种方式，吃糖，蛋糕，还有每天98次的想你”
+</p>
+							<div class="cd-author">
+								<img src="images/avatar-2.jpg" alt="Author image">
+								<ul class="cd-author-info">
+									<li>---生物中的爱情</li>									
+								</ul>
+							</div>
+						</li>
+						<li>
+							<p>m为人格魅力，v为对爱情的付出，a为爱情的变化率，F为环境（条件）的改变，t为恋爱的时间，s为爱情的结晶，r为双方之间的距离（心理和现实），G为爱德罗常数。</p>
+							<div class="cd-author">
+								<img src="images/avatar-3.jpg" alt="Author image">
+								<ul class="cd-author-info">
+									<li>---物理中的爱情</li>									
+								</ul>
+							</div>
+						</li>
+					</ul> <!-- cd-testimonials -->	
+				</div> <!-- cd-testimonials-wrapper -->
+				
+				<div class="cd-see-all"><a href="#0" class="btn btn-1">See all</a></div>
+				
+				<div class="cd-testimonials-all">
+					<div class="cd-testimonials-all-wrapper">
+						<ul>
+							<li class="cd-testimonials-item">
+								<p>m为人格魅力，v为对爱情的付出，a为爱情的变化率，F为环境（条件）的改变，t为恋爱的时间，s为爱情的结晶，r为双方之间的距离（心理和现实），G为爱德罗常数。</p>
+								
+								<div class="cd-author">
+									<img src="images/avatar-1.jpg" alt="Author image">
+									<ul class="cd-author-info">
+										<li>---物理中的爱情</li>									
+									</ul>
+								</div> <!-- cd-author -->
+							</li>
+							<li class="cd-testimonials-item">
+								<p>星河滚烫 你是人间理想</p>
+								
+								<div class="cd-author">
+									<img src="images/avatar-2.jpg" alt="Author image">
+									<ul class="cd-author-info">
+										<li>----Love</li>										
+									</ul>
+								</div> <!-- cd-author -->
+							</li>
+							<li class="cd-testimonials-item">
+								<p>皓月清凉 你是人间曙光</p>
+								
+								<div class="cd-author">
+									<img src="images/avatar-3.jpg" alt="Author image">
+									<ul class="cd-author-info">
+										<li>----Love</li>	
+									</ul>
+								</div> <!-- cd-author -->
+							</li>
+							<li class="cd-testimonials-item">
+								<p>人海冷漠 你是人间炽热</p>
+								
+								<div class="cd-author">
+									<img src="images/avatar-4.jpg" alt="Author image">
+									<ul class="cd-author-info">
+										<li>----Love</li>	
+									</ul>
+								</div> <!-- cd-author -->
+							</li>
+							<li class="cd-testimonials-item">
+								<p>万世浮沉 你是人间归途</p>
+								
+								<div class="cd-author">
+									<img src="images/avatar-5.jpg" alt="Author image">
+									<ul class="cd-author-info">
+										<li>----Love</li>	
+									</ul>
+								</div> <!-- cd-author -->
+							</li>
+							<li class="cd-testimonials-item">
+								<p>众人平庸 你是人间星光</p>
+								
+								<div class="cd-author">
+									<img src="images/avatar-6.jpg" alt="Author image">
+									<ul class="cd-author-info">
+										<li>----Love</li>	
+									</ul>
+								</div> <!-- cd-author -->
+							</li>
+							<li class="cd-testimonials-item">
+								<p>世事无常 你是人间琳琅</p>
+								
+								<div class="cd-author">
+									<img src="images/avatar-1.jpg" alt="Author image">
+									<ul class="cd-author-info">
+										<li>----Love</li>	
+									</ul>
+								</div> <!-- cd-author -->
+							</li>
+							<li class="cd-testimonials-item">
+								<p>夜风寒凉 你是人间火光</p>
+								
+								<div class="cd-author">
+									<img src="images/avatar-2.jpg" alt="Author image">
+									<ul class="cd-author-info">
+										<li>----Love</li>	
+									</ul>
+								</div> <!-- cd-author -->
+							</li>
+							<li class="cd-testimonials-item">
+								<p>这世界车水马龙，只对你情有独钟。</p>
+								
+								<div class="cd-author">
+									<img src="images/avatar-3.jpg" alt="Author image">
+									<ul class="cd-author-info">
+										<li>----Love</li>	
+									</ul>
+								</div> <!-- cd-author -->
+							</li>
+							<li class="cd-testimonials-item">
+								<p>我爱你就算你满嘴谎言，仍有我痴心不变</p>
+								
+								<div class="cd-author">
+									<img src="images/avatar-4.jpg" alt="Author image">
+									<ul class="cd-author-info">
+										<li>----Love</li>	
+									</ul>
+								</div> <!-- cd-author -->
+							</li>
+							<li class="cd-testimonials-item">
+								<p>我爱你，你用半生温柔，相濡以沫陪我赌，我又怎么舍得让你输</p>
+								
+								<div class="cd-author">
+									<img src="images/avatar-5.jpg" alt="Author image">
+									<ul class="cd-author-info">
+										<li>----Love</li>	
+									</ul>
+								</div> <!-- cd-author -->
+							</li>
+							<li class="cd-testimonials-item">
+								<p>我爱你，你给我每一次都是新鲜，我对你的依恋，越加明显，就在我们每次亲吻的瞬间，我就再也无法离开你的身边
+</p>
+								
+								<div class="cd-author">
+									<img src="images/avatar-6.jpg" alt="Author image">
+									<ul class="cd-author-info">
+										<li>----爱情</li>	
+									</ul>
+								</div> <!-- cd-author -->
+							</li>
+						</ul>
+					</div>	<!-- cd-testimonials-all-wrapper -->
+					<a href="#0" class="close-btn">退出</a>
+				</div> <!-- cd-testimonials-all -->
+			</div>
+		</section>
+		
+		<!-- ////////////Content Box 05 -->
+	  <section class="box-content box-5" id="contact us">
+			<div class="container">
+				<div class="row heading">
+					<div class="col-lg-12">
+	                    <h2>联系我们</h2>
+						<hr>
+	                    <div class="intro">你将会看到一个不一样我们...</div>
+                        <p>生活中缺不了你吗，就像人缺不了空气一样，希望浏览过我们的人都可以找到一个爱你像爱他自己的那个人...</p>
+                        <p>有什么需要的请联系作者  qq:207376010 <br>wx:gushisane</p>
+                        <p>有什么好的想法的也可以联系我？</p>
+	                </div>							
 				</div>
 			</div>
-
+		</section>
+		
+	</div>
+	
+	<!-- /////////////////////////////////////////Footer -->
+	<footer>
+	  </div>
+		<div class="copyright">
+			<div class="container">
+				<div class="row">
+					<div class="		">
+						<p>Copyright &copy; 2020.Company name All rights reserved.<a target="_blank" href="#">顾十三呐</a></p>
+					</div>					
+				</div>
+			</div>
 		</div>
 	</footer>
-	</div>
+	<!-- Footer -->
 
-	<div class="gototop js-top">
-		<a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
-	</div>
 	
 	<!-- jQuery -->
-	<script src="js/jquery.min.js"></script>
-	<!-- jQuery Easing -->
-	<script src="js/jquery.easing.1.3.js"></script>
-	<!-- Bootstrap -->
+	<script src="js/jquery-2.1.1.js"></script>
+	<script src="js/masonry.pkgd.min.js"></script>
+	<script src="js/jquery.flexslider-min.js"></script>
+	<script src="js/main.js"></script> <!-- Resource jQuery -->
+
+	<!-- Bootstrap Core JavaScript -->
 	<script src="js/bootstrap.min.js"></script>
-	<!-- Waypoints -->
-	<script src="js/jquery.waypoints.min.js"></script>
-	<!-- countTo -->
-	<script src="js/jquery.countTo.js"></script>
-	<!-- Magnific Popup -->
-	<script src="js/jquery.magnific-popup.min.js"></script>
-	<script src="js/magnific-popup-options.js"></script>
-	<!-- Stellar -->
-	<script src="js/jquery.stellar.min.js"></script>
-	<!-- Main -->
-	<script src="js/main.js"></script>
 
-	</body>
+	<!-- Custom Theme JavaScript -->
+	<script src="js/agency.js"></script>
+
+	<!-- Animated Top -->
+	<script src="js/jquery.easing.min.js"></script>
+	<script src="js/classie.js"></script>
+	<script src="js/cbpAnimatedHeader.js"></script>
+
+</body>
 </html>
-
